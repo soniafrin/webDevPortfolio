@@ -1,0 +1,32 @@
+
+.cont1{
+    width: 80%;
+}
+.article{
+    border: 1px solid black;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+.card p{
+    color: red;
+}
+#project{
+    width: 80%;
+}
+.project-card-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project-card{
+    flex:1;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
